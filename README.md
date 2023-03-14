@@ -20,21 +20,21 @@
 
 <!-- Тест кейсы -->
 
-### Что проверяем
-* GET single user
-* POST create user
-* PUT user
-* DELETE user
-* POST register user
+### Что проверяют тесты
+![This is an image](images/screenshots/test_cases.png)
 
+В проекте используется встроенный logger - logging:
+![This is an image](images/screenshots/logger.png)
 
 <!-- Jenkins -->
 
 ### <img width="3%" title="Jenkins" src="images/logo_stacks/jenkins.png"> Запуск проекта в Jenkins
-### [Job](https://jenkins.autotests.cloud/job/api_reqres_qa_guru_python_2/)
+### [Job](https://jenkins.autotests.cloud/job/kudaev-reqres-in/)
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере jenkins.
 ![This is an image](images/screenshots/jenkins.png)
 
+Также мы можем посмотреть выполнение тестов в консоли перейдя во вкладку "Вывод консоли" у определенного билда
+![This is an image](images/screenshots/jenkins_console.png)
 
 <!-- Allure report -->
 
@@ -52,7 +52,7 @@
 <!-- Allure TestOps -->
 
 ### <img width="3%" title="Allure TestOps" src="images/logo_stacks/allure_testops.png"> Интеграция с Allure TestOps
-### [Dashboard](https://allure.autotests.cloud/project/1719/dashboards)
+### [Dashboard](https://allure.autotests.cloud/project/2025/dashboards)
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
 ![This is an image](images/screenshots/allure_testops_dashboard.png)
 
@@ -63,6 +63,9 @@
 - Добавлять ручные тесты и т.д
 
 ![This is an image](images/screenshots/allure_testops_suites.png)
+
+Во вкладке Launches мы можем видить тестовые прогоны:
+![This is an image](images/screenshots/allure_testops_launcher.png)
 
 
 <!-- Jira -->
